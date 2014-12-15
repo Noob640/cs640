@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>CS640 class assignment</title>
+  </head>
+
+  <body>
+    <b>{{ name }} </b> <br>
+    <b> {{ student_id }} </b> <br>
+    <br>
+    <div>
+      What I learned <br>
+      <ul>
+	{% for learning in learnings %}
+	  <li> {{ learning }} </li>
+      </ul>
+    </div>
+   </body>
+</html>
